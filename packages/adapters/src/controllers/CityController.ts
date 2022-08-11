@@ -1,5 +1,4 @@
 import {
-    GetCityRequest,
     RetrieveCityDailyWeatherUseCase,
     RetrieveCityHourlyWeatherUseCase,
     RetrieveWeatherRequest

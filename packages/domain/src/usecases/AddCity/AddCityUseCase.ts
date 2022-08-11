@@ -1,9 +1,9 @@
-import { CityRepository } from '../ports/repositories/CityRepository'
-import { AddCityRequest } from '../ports/request/AddCityRequest'
-import { AddCityPresentation, NewCityFields } from '../ports/presenters/AddCityPresentation'
-import { GeoPosition } from '../entities/GeoPosition'
-import { CityBuilder } from '../entities/CityBuilder'
-import { GeoPositionBuilder } from '../entities/GeoPositionBuilder'
+import { CityRepository } from '../../repositories/CityRepository'
+import { AddCityRequest } from './AddCityRequest'
+import { AddCityPresentation, NewCityFields } from './AddCityPresentation'
+import { GeoPosition } from '../../entities/GeoPosition'
+import { CityBuilder } from '../../entities/CityBuilder'
+import { GeoPositionBuilder } from '../../entities/GeoPositionBuilder'
 
 export class AddCityUseCase {
   constructor(private cityRepository: CityRepository) {

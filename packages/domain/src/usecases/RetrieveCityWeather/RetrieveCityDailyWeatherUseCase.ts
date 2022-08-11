@@ -1,7 +1,7 @@
-import { RetrieveWeatherRequest } from '../ports/request/RetrieveWeatherRequest'
-import { WeatherRepository } from '../ports/repositories/WeatherRepository'
-import { RetrieveDailyWeatherPresentation } from '../ports/presenters/RetrieveDailyWeatherPresentation'
-import { DailyWeather } from '../entities/DailyWeather'
+import { RetrieveWeatherRequest } from './RetrieveWeatherRequest'
+import { WeatherRepository } from '../../repositories/WeatherRepository'
+import { RetrieveDailyWeatherPresentation } from './RetrieveDailyWeatherPresentation'
+import { DailyWeather } from '../../entities/DailyWeather'
 
 export class RetrieveCityDailyWeatherUseCase {
     constructor(private readonly weatherRepository: WeatherRepository) {

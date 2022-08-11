@@ -1,6 +1,7 @@
-import { RetrieveWeatherRequest } from '../ports/request/RetrieveWeatherRequest'
-import { WeatherRepository } from '../ports/repositories/WeatherRepository'
-import { HourlyWeather, RetrieveHourlyWeatherPresentation } from '@grenoble-hands-on/domain'
+import {RetrieveWeatherRequest} from './RetrieveWeatherRequest'
+import {WeatherRepository} from '../../repositories/WeatherRepository'
+import {HourlyWeather} from '../../entities/HourlyWeather'
+import {RetrieveHourlyWeatherPresentation} from './RetrieveHourlyWeatherPresentation'
 
 export class RetrieveCityHourlyWeatherUseCase {
     constructor(private readonly weatherRepository: WeatherRepository) {

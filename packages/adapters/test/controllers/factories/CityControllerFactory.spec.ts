@@ -1,5 +1,4 @@
 import { CityControllerFactory } from '@grenoble-hands-on/web-adapters'
-import { GetCityUseCaseBuilder } from '../../builder/GetCityUseCaseBuilder'
 import { RetrieveCityDailyWeatherUseCaseBuilder } from '../../builder/RetrieveCityDailyWeatherUseCaseBuilder'
 import { RetrieveCityHourlyWeatherUseCaseBuilder } from '../../builder/RetrieveCityHourlyWeatherUseCaseBuilder'
 

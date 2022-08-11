@@ -1,5 +1,5 @@
-import { BookmarkRepository } from '../ports/repositories/BookmarkRepository'
-import { GetBookmarkCityPresentation } from '../ports/presenters/GetBookmarkCityPresentation'
+import { BookmarkRepository } from '../../repositories/BookmarkRepository'
+import { GetBookmarkCityPresentation } from './GetBookmarkCityPresentation'
 
 export class GetBookmarkCityUseCase {
     constructor(private readonly repository: BookmarkRepository) {
