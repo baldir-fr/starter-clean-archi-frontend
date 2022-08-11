@@ -9,8 +9,8 @@
   "scripts": {
     "postinstall": "lerna bootstrap",
     "test": "jest",
-    "angular": "npm start --prefix packages/web/infrastructure/angular",
-    "react": "npm start --prefix packages/web/infrastructure/react",
-    "vuejs": "npm start --prefix packages/web/infrastructure/vuejs"
+    "angular": "npm start --prefix packages/infrastructure/angular",
+    "react": "npm start --prefix packages/infrastructure/react",
+    "vuejs": "npm start --prefix packages/infrastructure/vuejs"
   }
 }
